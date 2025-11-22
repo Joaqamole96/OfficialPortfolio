@@ -1,0 +1,41 @@
+[
+  {
+    "id": "umak-link",
+    "title": "UMak Link",
+    "short": "Online lost & found for the University of Makati (OHSO).",
+    "description": "A system for reporting and reclaiming lost items, with admin moderation and inventory tracking.",
+    "role": "Full-stack developer",
+    "tech": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    "screenshots": ["/assets/images/umak-1.png", "/assets/images/umak-2.png"],
+    "repo": "",
+    "demo": "",
+    "date": "2025-04"
+  },
+  {
+    "id": "dungeon-frontier",
+    "title": "Dungeon Frontier",
+    "short": "3D mobile roguelike game (course project).",
+    "description": "Procedural roguelike built in Unity focused on level generation and mobile-friendly controls.",
+    "role": "Gameplay & systems",
+    "tech": ["Unity", "C#"],
+    "screenshots": [
+      "/assets/images/dungeon-1.png",
+      "/assets/images/dungeon-2.png"
+    ],
+    "repo": "",
+    "demo": "",
+    "date": "2025-03"
+  },
+  {
+    "id": "acadenza",
+    "title": "Acadenza",
+    "short": "Student productivity site (planned).",
+    "description": "Lightweight planner with timelines, study logs, and a Pomodoro tracker.",
+    "role": "Product/Developer",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "screenshots": [],
+    "repo": "",
+    "demo": "",
+    "date": "planned"
+  }
+]

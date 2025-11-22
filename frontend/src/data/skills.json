@@ -1,0 +1,13 @@
+[
+  { "name": "HTML", "logo": "/assets/icons/html.svg", "level": 85 },
+  { "name": "CSS", "logo": "/assets/icons/css.svg", "level": 80 },
+  { "name": "JavaScript", "logo": "/assets/icons/js.svg", "level": 70 },
+  { "name": "PHP", "logo": "/assets/icons/php.svg", "level": 60 },
+  { "name": "React", "logo": "/assets/icons/react.svg", "level": 30 },
+  { "name": "Tailwind", "logo": "/assets/icons/tailwind.svg", "level": 35 },
+  { "name": "Java", "logo": "/assets/icons/java.svg", "level": 65 },
+  { "name": "C#", "logo": "/assets/icons/csharp.svg", "level": 60 },
+  { "name": "Python", "logo": "/assets/icons/python.svg", "level": 60 },
+  { "name": "C++", "logo": "/assets/icons/cpp.svg", "level": 15 },
+  { "name": "Rust", "logo": "/assets/icons/rust.svg", "level": 10 }
+]
