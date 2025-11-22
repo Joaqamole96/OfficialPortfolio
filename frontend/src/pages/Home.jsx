@@ -8,9 +8,8 @@ export default function Home() {
   const [open, setOpen] = useState(null);
 
   useEffect(() => {
-    fetch("/assets/data/projects.json")
-      .then((r) => r.json())
-      .then(setProjects)
+    import("../data/projects.json")
+      .then((module) => setProjects(module.default))
       .catch((err) => console.error("Failed to load projects:", err));
   }, []);
 

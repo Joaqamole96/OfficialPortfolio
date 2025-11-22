@@ -3,13 +3,13 @@
     "id": "umak-link",
     "title": "UMak Link",
     "short": "Online lost & found for the University of Makati (OHSO).",
-    "description": "A system for reporting and reclaiming lost items, with admin moderation and inventory tracking.",
+    "description": "A system for reporting and reclaiming lost items, with admin moderation.",
     "role": "Full-stack developer",
-    "tech": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    "screenshots": ["/assets/images/umak-1.png", "/assets/images/umak-2.png"],
+    "tech": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Supabase", "Capacitor"],
+    "screenshots": ["/assets/images/umak-1.jpg", "/assets/images/umak-2.jpg"],
     "repo": "",
     "demo": "",
-    "date": "2025-04"
+    "date": "2025-10"
   },
   {
     "id": "dungeon-frontier",
@@ -19,23 +19,11 @@
     "role": "Gameplay & systems",
     "tech": ["Unity", "C#"],
     "screenshots": [
-      "/assets/images/dungeon-1.png",
-      "/assets/images/dungeon-2.png"
+      "/assets/images/dungeon-1.jpg",
+      "/assets/images/dungeon-2.jpg"
     ],
     "repo": "",
     "demo": "",
-    "date": "2025-03"
-  },
-  {
-    "id": "acadenza",
-    "title": "Acadenza",
-    "short": "Student productivity site (planned).",
-    "description": "Lightweight planner with timelines, study logs, and a Pomodoro tracker.",
-    "role": "Product/Developer",
-    "tech": ["HTML", "CSS", "JavaScript"],
-    "screenshots": [],
-    "repo": "",
-    "demo": "",
-    "date": "planned"
+    "date": "2025-10"
   }
 ]

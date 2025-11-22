@@ -6,9 +6,8 @@ export default function Skills() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("/assets/data/skills.json")
-      .then((r) => r.json())
-      .then(setSkills)
+    import("../data/skills.json")
+      .then((module) => setSkills(module.default))
       .catch((err) => console.error("Failed to load skills:", err));
   }, []);
 
@@ -127,7 +126,8 @@ export default function Skills() {
         style={{
           marginTop: "3rem",
           padding: "1.5rem",
-          background: "linear-gradient(135deg, rgba(0,169,224,0.05), transparent)",
+          background:
+            "linear-gradient(135deg, rgba(0,169,224,0.05), transparent)",
           borderRadius: "var(--radius)",
           border: "1px solid rgba(0,169,224,0.1)",
         }}
@@ -136,11 +136,11 @@ export default function Skills() {
           🎯 Currently Learning
         </h2>
         <p style={{ opacity: 0.85, lineHeight: 1.7, margin: 0 }}>
-          <strong>C++</strong> — Diving deeper into systems programming,
-          memory management, and performance optimization.
+          <strong>C++</strong> — Diving deeper into systems programming, memory
+          management, and performance optimization.
           <br />
-          <strong>Rust</strong> — Exploring modern systems language with a
-          focus on safety and concurrency.
+          <strong>Rust</strong> — Exploring modern systems language with a focus
+          on safety and concurrency.
         </p>
       </div>
 
