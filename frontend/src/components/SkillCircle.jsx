@@ -36,7 +36,7 @@ export default function SkillCircle({ logo, name, level }) {
             strokeLinecap="round"
             transform="rotate(-90)"
           />
-          <foreignObject x="-28" y="-28" width="56" height="56">
+          <foreignObject x="-28" y="-18" width="56" height="56">
             <div
               style={{
                 display: "flex",

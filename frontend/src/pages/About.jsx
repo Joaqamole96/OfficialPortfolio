@@ -36,10 +36,10 @@ export default function About() {
         }}
       >
         <p style={{ opacity: 0.9, lineHeight: 1.7, margin: 0 }}>
-          Professional but conversational — meticulous, detail-focused, and
-          curious about the science of computation. I enjoy algorithms, data
-          structures, and efficient systems. Outside of academics I keep things
-          light but always aim for high-quality work.
+          I am professional but conversational. That is to say, I am meticulous, 
+          detail-focused, and curious about the science of computation. I enjoy 
+          algorithms, data structures, and efficient systems. Outside of 
+          academics I keep things light but always aim for high-quality work.
         </p>
       </div>
 
@@ -88,12 +88,11 @@ export default function About() {
         <div className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
-            <div className="timeline-date">Present</div>
-            <h3>BS Computer Science</h3>
+            <div className="timeline-date">2023 - Present</div>
+            <h3>Started BS Computer Science</h3>
             <p>University of Makati</p>
             <p style={{ fontSize: "0.9rem", opacity: 0.8 }}>
-              Pursuing excellence in computer science fundamentals while working
-              on practical projects.
+              Began the pursuit of learning computer science.
             </p>
           </div>
         </div>
@@ -101,12 +100,12 @@ export default function About() {
         <div className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
-            <div className="timeline-date">April 2025</div>
+            <div className="timeline-date">October 2025 - Present</div>
             <h3>UMak Link</h3>
             <p>Full-stack Developer</p>
             <p style={{ fontSize: "0.9rem", opacity: 0.8 }}>
               Developed an online lost & found system for the University of
-              Makati's Office of Health Services and Operations (OHSO).
+              Makati's (UMak) Occupational Health & Safety Office (OHSO).
             </p>
           </div>
         </div>
@@ -114,12 +113,13 @@ export default function About() {
         <div className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
-            <div className="timeline-date">March 2025</div>
+            <div className="timeline-date">October 2025 - Present</div>
             <h3>Dungeon Frontier</h3>
-            <p>Gameplay & Systems Developer</p>
+            <p>Systems Developer</p>
             <p style={{ fontSize: "0.9rem", opacity: 0.8 }}>
               Created a 3D mobile roguelike game as a course project, featuring
-              procedural level generation.
+              complete procedural level generation and application of innovative
+              algorithmic principles.
             </p>
           </div>
         </div>
@@ -127,11 +127,11 @@ export default function About() {
         <div className="timeline-item">
           <div className="timeline-marker"></div>
           <div className="timeline-content">
-            <div className="timeline-date">Upcoming</div>
+            <div className="timeline-date">- Present</div>
             <h3>Acadenza</h3>
             <p>Product/Developer</p>
             <p style={{ fontSize: "0.9rem", opacity: 0.8 }}>
-              Planning a student productivity platform with timelines, study
+              Currently planning a student productivity platform with timelines, study
               logs, and Pomodoro tracking.
             </p>
           </div>

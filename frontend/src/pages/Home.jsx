@@ -28,7 +28,7 @@ export default function Home() {
             backgroundClip: "text",
           }}
         >
-          Joaquin — Meticulous CS Student
+          Hi, welcome to my Portfolio!
         </h1>
         <p
           style={{
@@ -38,8 +38,8 @@ export default function Home() {
             maxWidth: "600px",
           }}
         >
-          I build considered software & games with attention to detail.
-          Passionate about algorithms, systems, and creating meaningful digital
+          I build software & games with attention to detail. I'm deeply 
+          passionate about algorithms, systems, and creating meaningful digital
           experiences.
         </p>
 

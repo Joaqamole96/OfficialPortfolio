@@ -136,10 +136,11 @@ export default function Skills() {
           🎯 Currently Learning
         </h2>
         <p style={{ opacity: 0.85, lineHeight: 1.7, margin: 0 }}>
-          <strong>C++</strong> — Diving deeper into systems programming, memory
+          <strong>C++</strong>: I dipped my toes into C++ during my senior high years.
+          I am particularly interested in diving deeper into its versatility in systems programming, memory
           management, and performance optimization.
           <br />
-          <strong>Rust</strong> — Exploring modern systems language with a focus
+          <strong>Rust</strong>: I am interested in exploring this modern systems language that's focused
           on safety and concurrency.
         </p>
       </div>

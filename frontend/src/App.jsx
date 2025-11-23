@@ -23,7 +23,7 @@ export default function App() {
         </Routes>
       </main>
       <footer className="site-footer">
-        © {new Date().getFullYear()} Joaquin — Built with care.
+        © {new Date().getFullYear()} Joaquin Luis Guevarra
       </footer>
       <ScrollToTop />
     </div>
