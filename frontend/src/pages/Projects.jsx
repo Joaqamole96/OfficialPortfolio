@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectModal from "../components/ProjectModal";
+import projectsData from "../data/projects.json";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -10,20 +11,16 @@ export default function Projects() {
   const [technologies, setTechnologies] = useState([]);
 
   useEffect(() => {
-    fetch("/assets/data/projects.json")
-      .then((r) => r.json())
-      .then((data) => {
-        setProjects(data);
-        setFilteredProjects(data);
+    // Load projects from imported JSON
+    setProjects(projectsData);
+    setFilteredProjects(projectsData);
 
-        // Extract unique technologies
-        const techs = new Set();
-        data.forEach((project) => {
-          project.tech.forEach((tech) => techs.add(tech));
-        });
-        setTechnologies(["all", ...Array.from(techs).sort()]);
-      })
-      .catch((err) => console.error("Failed to load projects:", err));
+    // Extract unique technologies
+    const techs = new Set();
+    projectsData.forEach((project) => {
+      project.tech.forEach((tech) => techs.add(tech));
+    });
+    setTechnologies(["all", ...Array.from(techs).sort()]);
   }, []);
 
   useEffect(() => {

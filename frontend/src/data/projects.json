@@ -1,22 +1,25 @@
 [
   {
-    "id": "umak-link",
+    "id": "softeng-pbl-umaklink",
     "title": "UMak Link",
     "short": "Online lost & found for the University of Makati (OHSO).",
     "description": "A system for reporting and reclaiming lost items, with admin moderation.",
     "role": "Full-stack developer",
     "tech": ["HTML", "CSS", "JavaScript", "React", "Tailwind", "Supabase", "Capacitor"],
-    "screenshots": ["/assets/images/umak-1.jpg", "/assets/images/umak-2.jpg"],
+    "screenshots": [
+      "/assets/images/umak-1.jpg", 
+      "/assets/images/umak-2.jpg"
+    ],
     "repo": "",
     "demo": "",
     "date": "2025-10"
   },
   {
-    "id": "dungeon-frontier",
+    "id": "algocom-game-dungeonfrontier",
     "title": "Dungeon Frontier",
     "short": "3D mobile roguelike game (course project).",
     "description": "Procedural roguelike built in Unity focused on level generation and mobile-friendly controls.",
-    "role": "Gameplay & systems",
+    "role": "Project leader",
     "tech": ["Unity", "C#"],
     "screenshots": [
       "/assets/images/dungeon-1.jpg",
@@ -25,5 +28,17 @@
     "repo": "",
     "demo": "",
     "date": "2025-10"
+  },
+  {
+    "id": "personal-webapp-acadenza",
+    "title": "Acadenza",
+    "short": "Student productivity app.",
+    "description": "A student productivity application made for students, by students",
+    "role": "Project leader",
+    "tech": ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+    "screenshots": [],
+    "repo": "",
+    "demo": "",
+    "date": "2025-9"
   }
 ]
